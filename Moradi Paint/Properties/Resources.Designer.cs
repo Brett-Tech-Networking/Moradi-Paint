@@ -73,6 +73,16 @@ namespace Moradi_Paint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download1 {
+            get {
+                object obj = ResourceManager.GetObject("download1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imageedit_20_4434715550 {
             get {
                 object obj = ResourceManager.GetObject("imageedit_20_4434715550", resourceCulture);
@@ -93,6 +103,26 @@ namespace Moradi_Paint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imageedit_6_4186000384 {
+            get {
+                object obj = ResourceManager.GetObject("imageedit_6_4186000384", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lime {
+            get {
+                object obj = ResourceManager.GetObject("lime", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Moradi_Paint {
             get {
                 object obj = ResourceManager.GetObject("Moradi Paint", resourceCulture);
@@ -106,6 +136,26 @@ namespace Moradi_Paint.Properties {
         internal static System.Drawing.Bitmap paintbrush_24251_960_720 {
             get {
                 object obj = ResourceManager.GetObject("paintbrush-24251_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap select {
+            get {
+                object obj = ResourceManager.GetObject("select", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap square_xxl {
+            get {
+                object obj = ResourceManager.GetObject("square-xxl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

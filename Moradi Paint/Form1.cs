@@ -86,7 +86,7 @@ namespace Moradi_Paint
             p.Color = Color.Yellow;
         }
 
-  
+
         private void button6_Click(object sender, EventArgs e)
         {
             ColorDialog cd = new ColorDialog();
@@ -108,7 +108,52 @@ namespace Moradi_Paint
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.DodgerBlue;
+        }
+
+        private void Purple_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.Purple;
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Select_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            panel2.Invalidate();
+        }
+
+        private void redToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel2.BackColor = Color.Red;
+            p.Color = Color.Black;
+        }
+
+        private void blackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel2.BackColor = Color.Black;
+
+        }
+
+        private void limeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel2.BackColor = Color.Lime;
+        }
     }
 }
-    
+
+
+
+
 

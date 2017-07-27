@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.faderTheme1 = new Fader_Theme.FaderTheme();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.faderControlBox1 = new Fader_Theme.FaderControlBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.faderTheme1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,16 +50,6 @@
             this.faderTheme1.TabIndex = 0;
             this.faderTheme1.Text = "Moradi Paint";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Moradi_Paint.Properties.Resources.imageedit_20_4434715550;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 60);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(557, 378);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // faderControlBox1
             // 
             this.faderControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -72,6 +62,16 @@
             this.faderControlBox1.TabIndex = 1;
             this.faderControlBox1.Text = "faderControlBox1";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Moradi_Paint.Properties.Resources.imageedit_20_4434715550;
+            this.pictureBox1.Location = new System.Drawing.Point(16, 60);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(557, 378);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -79,8 +79,13 @@
             this.ClientSize = new System.Drawing.Size(589, 461);
             this.Controls.Add(this.faderTheme1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(589, 461);
+            this.MinimumSize = new System.Drawing.Size(589, 461);
             this.Name = "About";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
+            this.TopMost = true;
+            this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.faderTheme1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
