@@ -1,0 +1,14 @@
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\obj\Debug\Moradi Paint.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\obj\Debug\Moradi_Paint.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\obj\Debug\Moradi Paint.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\bin\Debug\Moradi Paint.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\bin\Debug\Moradi Paint.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\obj\Debug\Moradi Paint.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\obj\Debug\Moradi Paint.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\bin\Debug\Effectual Theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\bin\Debug\onlykl theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\bin\Debug\theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\obj\Debug\Moradi_Paint.Form1.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\bin\Debug\Fader Theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Moradi Paint\Moradi Paint\obj\Debug\Moradi_Paint.About.resources
