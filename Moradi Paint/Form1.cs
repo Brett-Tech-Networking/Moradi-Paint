@@ -8,12 +8,13 @@ namespace Moradi_Paint
     {
         public Point current = new Point();
         public Point old = new Point();
+        public TextBox t = new TextBox();
         public Pen p = new Pen(Color.Red, 5);
         public Graphics g;
         public Form1()
         {
             InitializeComponent();
-            g = panel2.CreateGraphics();
+            g = Panel2.CreateGraphics();
             p.SetLineCap(System.Drawing.Drawing2D.LineCap.Round, System.Drawing.Drawing2D.LineCap.Round, System.Drawing.Drawing2D.DashCap.Round);
 
         }
@@ -59,6 +60,14 @@ namespace Moradi_Paint
                 p.Width = 15;
             else if (radioButton5.Checked)
                 p.Width = 30;
+            else if (radioButton6.Checked)
+                p.Width = 40;
+            else if (radioButton7.Checked)
+                p.Width = 50;
+            else if (radioButton8.Checked)
+                p.Width = 60;
+            else if (radioButton9.Checked)
+                p.Width = 70;
         }
 
         private void panel2_MouseMove(object sender, MouseEventArgs e)
@@ -101,7 +110,7 @@ namespace Moradi_Paint
 
         private void clearToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panel2.Invalidate();
+            Panel2.Invalidate();
         }
 
         private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
@@ -126,32 +135,76 @@ namespace Moradi_Paint
 
         private void Select_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Button Not Yet Activated By Owner Please Wait For Newer Release", "Error");
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            panel2.Invalidate();
+            Panel2.Invalidate();
         }
 
         private void redToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panel2.BackColor = Color.Red;
+            Panel2.BackColor = Color.Red;
             p.Color = Color.Black;
         }
 
         private void blackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panel2.BackColor = Color.Black;
+            Panel2.BackColor = Color.Black;
 
         }
 
         private void limeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panel2.BackColor = Color.Lime;
+            Panel2.BackColor = Color.Lime;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (Panel2.BackColor == Color.Black)
+            {
+                p.Color = Color.Black;
+                p.Width = 50;
+            }
+            {
+                if (Panel2.BackColor == Color.Red)
+                {
+                    p.Color = Color.Red;
+                    p.Width = 50;
+                }
+                {
+                    if (Panel2.BackColor == Color.Lime)
+                    {
+                        p.Color = Color.Lime;
+                        p.Width = 50;
+                    }
+                }
+            }
+        }
+
+        private void faderMinimalTheme1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            
         }
     }
 }
+
 
 
 

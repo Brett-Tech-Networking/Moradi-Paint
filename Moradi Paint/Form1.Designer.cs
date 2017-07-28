@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.faderMinimalTheme1 = new Fader_Theme.FaderMinimalTheme();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,7 +42,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.Panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
@@ -58,7 +59,6 @@
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -66,15 +66,21 @@
             this.limeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Select = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.faderMinimalTheme1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Select)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // faderMinimalTheme1
@@ -85,7 +91,7 @@
             this.faderMinimalTheme1.Controls.Add(this.label3);
             this.faderMinimalTheme1.Controls.Add(this.pictureBox1);
             this.faderMinimalTheme1.Controls.Add(this.toolStripContainer1);
-            this.faderMinimalTheme1.Controls.Add(this.panel2);
+            this.faderMinimalTheme1.Controls.Add(this.Panel2);
             this.faderMinimalTheme1.Controls.Add(this.panel1);
             this.faderMinimalTheme1.Controls.Add(this.label1);
             this.faderMinimalTheme1.Controls.Add(this.faderControlBox1);
@@ -96,6 +102,19 @@
             this.faderMinimalTheme1.Size = new System.Drawing.Size(1060, 657);
             this.faderMinimalTheme1.TabIndex = 0;
             this.faderMinimalTheme1.Text = "faderMinimalTheme1";
+            this.faderMinimalTheme1.Click += new System.EventHandler(this.faderMinimalTheme1_Click);
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1,
+            this.toolStripDropDownButton1});
+            this.toolStrip1.Location = new System.Drawing.Point(246, 37);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(64, 25);
+            this.toolStrip1.TabIndex = 12;
+            this.toolStrip1.Text = "toolStrip1";
             // 
             // label4
             // 
@@ -103,7 +122,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Schoolbook", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(37, 390);
+            this.label4.Location = new System.Drawing.Point(37, 422);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 16);
             this.label4.TabIndex = 11;
@@ -112,8 +131,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.Select);
-            this.panel3.Location = new System.Drawing.Point(21, 405);
+            this.panel3.Location = new System.Drawing.Point(21, 442);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(70, 149);
             this.panel3.TabIndex = 10;
@@ -124,7 +144,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(20, 210);
+            this.label3.Location = new System.Drawing.Point(20, 243);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 15);
             this.label3.TabIndex = 9;
@@ -145,7 +165,7 @@
             this.toolStripContainer1.ContentPanel.Controls.Add(this.button1);
             this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(69, 159);
             this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
-            this.toolStripContainer1.Location = new System.Drawing.Point(21, 225);
+            this.toolStripContainer1.Location = new System.Drawing.Point(21, 259);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.Size = new System.Drawing.Size(69, 159);
             this.toolStripContainer1.TabIndex = 7;
@@ -175,10 +195,10 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.DarkGray;
+            this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Navy;
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.button6.Location = new System.Drawing.Point(11, 131);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(47, 23);
@@ -233,21 +253,25 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel2
+            // Panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.ForeColor = System.Drawing.Color.Lime;
-            this.panel2.Location = new System.Drawing.Point(97, 65);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(942, 563);
-            this.panel2.TabIndex = 6;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
-            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            this.Panel2.BackColor = System.Drawing.Color.Black;
+            this.Panel2.ForeColor = System.Drawing.Color.Lime;
+            this.Panel2.Location = new System.Drawing.Point(97, 65);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.Size = new System.Drawing.Size(942, 563);
+            this.Panel2.TabIndex = 6;
+            this.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.Panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
+            this.Panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.radioButton9);
+            this.panel1.Controls.Add(this.radioButton8);
+            this.panel1.Controls.Add(this.radioButton7);
+            this.panel1.Controls.Add(this.radioButton6);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.radioButton5);
             this.panel1.Controls.Add(this.radioButton4);
@@ -256,7 +280,7 @@
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Location = new System.Drawing.Point(23, 65);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(68, 138);
+            this.panel1.Size = new System.Drawing.Size(68, 175);
             this.panel1.TabIndex = 5;
             // 
             // label2
@@ -274,7 +298,7 @@
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.ForeColor = System.Drawing.Color.Lime;
-            this.radioButton5.Location = new System.Drawing.Point(14, 116);
+            this.radioButton5.Location = new System.Drawing.Point(14, 86);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(37, 17);
             this.radioButton5.TabIndex = 4;
@@ -286,7 +310,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.ForeColor = System.Drawing.Color.Lime;
-            this.radioButton4.Location = new System.Drawing.Point(14, 92);
+            this.radioButton4.Location = new System.Drawing.Point(14, 70);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(37, 17);
             this.radioButton4.TabIndex = 3;
@@ -298,7 +322,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.ForeColor = System.Drawing.Color.Lime;
-            this.radioButton3.Location = new System.Drawing.Point(14, 68);
+            this.radioButton3.Location = new System.Drawing.Point(14, 54);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(37, 17);
             this.radioButton3.TabIndex = 2;
@@ -310,7 +334,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.ForeColor = System.Drawing.Color.Lime;
-            this.radioButton2.Location = new System.Drawing.Point(14, 44);
+            this.radioButton2.Location = new System.Drawing.Point(14, 37);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(31, 17);
             this.radioButton2.TabIndex = 1;
@@ -419,18 +443,6 @@
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
-            this.toolStripDropDownButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(246, 37);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(95, 25);
-            this.toolStrip1.TabIndex = 12;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
             // toolStripButton1
             // 
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -458,7 +470,7 @@
             // 
             this.redToolStripMenuItem.Image = global::Moradi_Paint.Properties.Resources.square_xxl;
             this.redToolStripMenuItem.Name = "redToolStripMenuItem";
-            this.redToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.redToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.redToolStripMenuItem.Text = "RED";
             this.redToolStripMenuItem.Click += new System.EventHandler(this.redToolStripMenuItem_Click);
             // 
@@ -466,7 +478,7 @@
             // 
             this.blackToolStripMenuItem.Image = global::Moradi_Paint.Properties.Resources.download1;
             this.blackToolStripMenuItem.Name = "blackToolStripMenuItem";
-            this.blackToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.blackToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.blackToolStripMenuItem.Text = "Black";
             this.blackToolStripMenuItem.Click += new System.EventHandler(this.blackToolStripMenuItem_Click);
             // 
@@ -474,7 +486,7 @@
             // 
             this.limeToolStripMenuItem.Image = global::Moradi_Paint.Properties.Resources.lime;
             this.limeToolStripMenuItem.Name = "limeToolStripMenuItem";
-            this.limeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.limeToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.limeToolStripMenuItem.Text = "Lime";
             this.limeToolStripMenuItem.Click += new System.EventHandler(this.limeToolStripMenuItem_Click);
             // 
@@ -502,6 +514,67 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Moradi_Paint.Properties.Resources.imageedit_36_9224982906;
+            this.pictureBox2.Location = new System.Drawing.Point(38, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(34, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.ForeColor = System.Drawing.Color.Lime;
+            this.radioButton6.Location = new System.Drawing.Point(14, 103);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(37, 17);
+            this.radioButton6.TabIndex = 6;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "40";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.ForeColor = System.Drawing.Color.Lime;
+            this.radioButton7.Location = new System.Drawing.Point(14, 120);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(37, 17);
+            this.radioButton7.TabIndex = 7;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "50";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.ForeColor = System.Drawing.Color.Lime;
+            this.radioButton8.Location = new System.Drawing.Point(14, 137);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(37, 17);
+            this.radioButton8.TabIndex = 8;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "60";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.ForeColor = System.Drawing.Color.Lime;
+            this.radioButton9.Location = new System.Drawing.Point(14, 155);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(37, 17);
+            this.radioButton9.TabIndex = 0;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "70";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -520,6 +593,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.faderMinimalTheme1.ResumeLayout(false);
             this.faderMinimalTheme1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
             this.toolStripContainer1.ResumeLayout(false);
@@ -528,10 +603,9 @@
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Select)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -553,7 +627,7 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripContainer toolStripContainer1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel Panel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -575,6 +649,11 @@
         private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem blackToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem limeToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton8;
     }
 }
 

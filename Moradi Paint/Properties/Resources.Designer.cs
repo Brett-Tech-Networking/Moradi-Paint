@@ -103,6 +103,16 @@ namespace Moradi_Paint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imageedit_36_9224982906 {
+            get {
+                object obj = ResourceManager.GetObject("imageedit_36_9224982906", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imageedit_6_4186000384 {
             get {
                 object obj = ResourceManager.GetObject("imageedit_6_4186000384", resourceCulture);

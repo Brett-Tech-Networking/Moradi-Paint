@@ -22,3 +22,13 @@ C:\Users\Admin\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi_Paint.A
 C:\Users\Admin\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi_Paint.Form1.resources
 C:\Users\Admin\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi_Paint.Properties.Resources.resources
 C:\Users\Admin\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi Paint.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\bin\Debug\Moradi Paint.exe.config
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi Paint.exe
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi Paint.pdb
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\bin\Debug\Moradi Paint.exe
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\bin\Debug\Moradi Paint.pdb
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi Paint.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi_Paint.About.resources
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi_Paint.Form1.resources
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi_Paint.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Moradi-Paint-master\Moradi Paint\obj\Debug\Moradi Paint.csproj.GenerateResource.Cache
