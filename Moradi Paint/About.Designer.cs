@@ -55,7 +55,7 @@
             this.faderControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.faderControlBox1.BackColor = System.Drawing.Color.Transparent;
             this.faderControlBox1.Location = new System.Drawing.Point(488, 12);
-            this.faderControlBox1.MaximumDisable = false;
+            this.faderControlBox1.MaximumDisable = true;
             this.faderControlBox1.MinimumDisable = false;
             this.faderControlBox1.Name = "faderControlBox1";
             this.faderControlBox1.Size = new System.Drawing.Size(85, 30);
