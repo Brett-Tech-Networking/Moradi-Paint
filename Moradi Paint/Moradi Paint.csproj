@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Effectual Theme">
       <HintPath>..\..\..\..\..\Desktop\desktop\Theme . dlls\Effectual Theme.dll</HintPath>
     </Reference>
@@ -71,6 +75,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Moradi PhotoShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moradi PhotoShop.Designer.cs">
+      <DependentUpon>Moradi PhotoShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program Chooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program Chooser.Designer.cs">
+      <DependentUpon>Program Chooser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="About.resx">
@@ -78,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program Chooser.resx">
+      <DependentUpon>Program Chooser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
