@@ -81,12 +81,6 @@
     <Compile Include="Moradi PhotoShop.Designer.cs">
       <DependentUpon>Moradi PhotoShop.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program Chooser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Program Chooser.Designer.cs">
-      <DependentUpon>Program Chooser.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="About.resx">
@@ -97,9 +91,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Moradi PhotoShop.resx">
       <DependentUpon>Moradi PhotoShop.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Program Chooser.resx">
-      <DependentUpon>Program Chooser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

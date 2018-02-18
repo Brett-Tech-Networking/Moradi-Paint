@@ -16,7 +16,7 @@ namespace Moradi_Paint
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Program_Chooser());
+            Application.Run(new Form1());
         }
     }
 }
