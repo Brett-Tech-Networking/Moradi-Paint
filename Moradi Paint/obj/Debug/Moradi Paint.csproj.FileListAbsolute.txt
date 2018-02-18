@@ -85,3 +85,4 @@ C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\D
 C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Program_Chooser.resources
+C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Moradi_PhotoShop.resources

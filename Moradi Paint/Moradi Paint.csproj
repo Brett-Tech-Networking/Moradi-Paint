@@ -95,6 +95,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Moradi PhotoShop.resx">
+      <DependentUpon>Moradi PhotoShop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Program Chooser.resx">
       <DependentUpon>Program Chooser.cs</DependentUpon>
     </EmbeddedResource>
