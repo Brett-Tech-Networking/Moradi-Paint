@@ -17,6 +17,11 @@ namespace Moradi_Paint
             g = Panel2.CreateGraphics();
             p.SetLineCap(System.Drawing.Drawing2D.LineCap.Round, System.Drawing.Drawing2D.LineCap.Round, System.Drawing.Drawing2D.DashCap.Round);
 
+            // Enable drag-and-drop operations and 
+            // add handlers for DragEnter and DragDrop.
+            this.AllowDrop = true;
+            this.DragDrop += new DragEventHandler(this.Form1_Load);
+            this.DragEnter += new DragEventHandler(this.Form1_Load);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -199,6 +204,11 @@ namespace Moradi_Paint
         }
 
         private void button7_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void faderControlBox1_Click(object sender, EventArgs e)
         {
             
         }
