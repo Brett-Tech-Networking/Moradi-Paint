@@ -86,51 +86,14 @@ C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\D
 C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\Users\Administrator\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Moradi_PhotoShop.resources
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.config
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.exe
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.pdb
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.pdb
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Printing.v17.2.Core.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Data.v17.2.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Utils.v17.2.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.XtraBars.v17.2.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.XtraEditors.v17.2.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Printing.v17.2.Core.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.About.resources
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Form1.resources
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Moradi_PhotoShop.resources
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Properties.Resources.resources
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.exe
+C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.pdb
+C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.CodeAnalysisLog.xml
+C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.lastcodeanalysissucceeded

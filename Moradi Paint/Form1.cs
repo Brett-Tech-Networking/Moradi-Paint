@@ -224,6 +224,16 @@ namespace Moradi_Paint
         {
             
         }
+
+        private void whiteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Panel2.BackColor = Color.White;
+        }
+
+        private void restartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }
 
