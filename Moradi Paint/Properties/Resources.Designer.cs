@@ -143,6 +143,16 @@ namespace Moradi_Paint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap new_paint {
+            get {
+                object obj = ResourceManager.GetObject("new paint", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paintbrush_24251_960_720 {
             get {
                 object obj = ResourceManager.GetObject("paintbrush-24251_960_720", resourceCulture);

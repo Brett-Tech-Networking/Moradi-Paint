@@ -95,5 +95,5 @@ C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csproj.GenerateResource.Cache
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.exe
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.pdb
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.CodeAnalysisLog.xml
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.lastcodeanalysissucceeded
+C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.splash_screen.resources
