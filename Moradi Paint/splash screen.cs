@@ -50,5 +50,11 @@ namespace Moradi_Paint
             timer1.Enabled = true;
             timer1.Interval = 30;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+          
+
+        }
     }
 }
