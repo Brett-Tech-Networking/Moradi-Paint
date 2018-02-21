@@ -189,7 +189,9 @@ namespace Moradi_Paint
                         p.Color = Color.Lime;
                         p.Width = 50;
                     }
+                   
                 }
+              
             }
         }
 
@@ -209,6 +211,16 @@ namespace Moradi_Paint
         }
 
         private void faderControlBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
         {
             
         }
