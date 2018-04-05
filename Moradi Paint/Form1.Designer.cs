@@ -89,6 +89,9 @@
             // 
             // faderMinimalTheme1
             // 
+            this.faderMinimalTheme1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.faderMinimalTheme1.Controls.Add(this.toolStrip1);
             this.faderMinimalTheme1.Controls.Add(this.label4);
             this.faderMinimalTheme1.Controls.Add(this.panel3);
@@ -100,9 +103,7 @@
             this.faderMinimalTheme1.Controls.Add(this.label1);
             this.faderMinimalTheme1.Controls.Add(this.faderControlBox1);
             this.faderMinimalTheme1.Controls.Add(this.menuStrip1);
-            this.faderMinimalTheme1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.faderMinimalTheme1.Location = new System.Drawing.Point(0, 0);
-            this.faderMinimalTheme1.MaximumSize = new System.Drawing.Size(1060, 657);
             this.faderMinimalTheme1.MinimumSize = new System.Drawing.Size(1060, 657);
             this.faderMinimalTheme1.Name = "faderMinimalTheme1";
             this.faderMinimalTheme1.Size = new System.Drawing.Size(1060, 657);
@@ -203,6 +204,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Schoolbook", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -215,6 +217,7 @@
             // 
             // panel3
             // 
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.Select);
@@ -253,6 +256,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Schoolbook", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -276,6 +280,7 @@
             // 
             // toolStripContainer1
             // 
+            this.toolStripContainer1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             // 
             // toolStripContainer1.ContentPanel
             // 
@@ -379,6 +384,9 @@
             // 
             // Panel2
             // 
+            this.Panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Panel2.BackColor = System.Drawing.Color.Black;
             this.Panel2.Cursor = System.Windows.Forms.Cursors.Cross;
             this.Panel2.ForeColor = System.Drawing.Color.Lime;
@@ -392,6 +400,7 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.radioButton9);
             this.panel1.Controls.Add(this.radioButton8);
@@ -545,7 +554,7 @@
             this.faderControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.faderControlBox1.BackColor = System.Drawing.Color.Transparent;
             this.faderControlBox1.Location = new System.Drawing.Point(954, 28);
-            this.faderControlBox1.MaximumDisable = true;
+            this.faderControlBox1.MaximumDisable = false;
             this.faderControlBox1.MinimumDisable = false;
             this.faderControlBox1.Name = "faderControlBox1";
             this.faderControlBox1.Size = new System.Drawing.Size(85, 30);
@@ -555,6 +564,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -634,13 +644,12 @@
             this.Controls.Add(this.faderMinimalTheme1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1060, 657);
             this.MinimumSize = new System.Drawing.Size(1060, 657);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Moradi Paint";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.faderMinimalTheme1.ResumeLayout(false);
             this.faderMinimalTheme1.PerformLayout();

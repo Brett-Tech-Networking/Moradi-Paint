@@ -234,6 +234,15 @@ namespace Moradi_Paint
         {
             Application.Restart();
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // closes the application and splash screen 
+
+            splash_screen sc = new splash_screen();
+            sc.Close();
+            Application.Exit();
+        }
     }
 }
 

@@ -97,7 +97,6 @@ C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.pdb
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.splash_screen.resources
-C:\Users\Admin\Documents\GitHub\Moradi-Paint\Moradi Paint\bin\Debug\Controls.dll
 C:\Users\Mat\Source\Repos\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.config
 C:\Users\Mat\Source\Repos\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.exe
 C:\Users\Mat\Source\Repos\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.pdb
