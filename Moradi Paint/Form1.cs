@@ -243,6 +243,27 @@ namespace Moradi_Paint
             sc.Close();
             Application.Exit();
         }
+
+        private void SaveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.FileName = "image";
+            saveFileDialog1.DefaultExt = "";
+            saveFileDialog1.Filter = "bmp images (*.bmp)|*.bmp";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                Bitmap bmp = new Bitmap(Panel2.Width, Panel2.Height);
+
+                pictureBox1.DrawToBitmap(bmp, new Rectangle(0, 0,
+                    Panel2.Width, Panel2.Height));
+
+                var fileName = saveFileDialog1.FileName;
+                if (!System.IO.Path.HasExtension(fileName) || System.IO.Path.GetExtension(fileName) != "bmp")
+                    fileName = fileName + ".bmp";
+
+                bmp.Save(fileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+            }
+        }
     }
 }
 

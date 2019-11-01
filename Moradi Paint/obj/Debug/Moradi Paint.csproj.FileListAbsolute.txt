@@ -109,3 +109,17 @@ C:\Users\Mat\Source\Repos\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Prope
 C:\Users\Mat\Source\Repos\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.splash_screen.resources
 C:\Users\Mat\Source\Repos\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csproj.GenerateResource.Cache
 C:\Users\Mat\Source\Repos\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.pdb
+D:\Documents\github\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe.config
+D:\Documents\github\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.exe
+D:\Documents\github\Moradi-Paint\Moradi Paint\bin\Debug\Moradi Paint.pdb
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csprojAssemblyReference.cache
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.About.resources
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Form1.resources
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Moradi_PhotoShop.resources
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.Properties.Resources.resources
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi_Paint.splash_screen.resources
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csproj.GenerateResource.cache
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csproj.CoreCompileInputs.cache
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.csproj.CopyComplete
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.exe
+D:\Documents\github\Moradi-Paint\Moradi Paint\obj\Debug\Moradi Paint.pdb
